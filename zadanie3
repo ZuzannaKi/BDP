@@ -1,0 +1,72 @@
+-- Database: zadanie2
+
+-- DROP DATABASE IF EXISTS zadanie2;
+
+CREATE DATABASE zadanie2
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Polish_Poland.1250'
+    LC_CTYPE = 'Polish_Poland.1250'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+	
+	CREATE EXTENSION postgis; 
+	--[Zadanie1] Znajdź budynki które zostały wybudowane lub wyremontowany na przestrzeni roku (zmiana pomiędzy 2018 a 2019)
+	--27899546
+		CREATE TABLE nowe AS(
+	SELECT t2019_kar_buildings.* FROM t2019_kar_buildings LEFT JOIN t2018_kar_buildings ON
+	t2019_kar_buildings.polygon_id=t2018_kar_buildings.polygon_id
+	WHERE ST_Equals(t2019_kar_buildings.geom,t2018_kar_buildings.geom) = False 
+	OR t2018_kar_buildings.polygon_id IS NULL);
+	
+	--[Zadanie 2]Znajdź ile nowych POI pojawiło się w promieniu 500 m od wyremontowanych lubwybudowanych budynków, 
+	--które znalezione zostały w zadaniu 1. Policz je wg ich kategorii.
+	SELECT COUNT(*),t2019_kar_poi_table.type FROM t2019_kar_poi_table LEFT JOIN t2018_kar_poi_table ON
+	t2019_kar_poi_table.poi_id=t2018_kar_poi_table.poi_id
+	WHERE t2018_kar_poi_table.poi_id IS NULL AND ST_Within(t2019_kar_poi_table.geom,ST_Buffer(ST_Union(ARRAY(SELECT geom FROM nowe)),500))
+	GROUP BY t2019_kar_poi_table.type
+	
+	--[Zadanie 3] Utwórz nową tabelę o nazwie ‘streets_reprojected’, która zawierać będzie dane z 
+	--tabeliT2019_KAR_STREETS przetransformowane do układu współrzędnych DHDN.Berlin/Cassini.
+	CREATE TABLE streets_reprojected AS
+    SELECT *,ST_Transform(geom, 3068)
+    FROM t2019_KAR_STREETS;
+	
+	--[Zadanie 4] Stwórz tabelę o nazwie ‘input_points’ i dodaj do niej dwa rekordy o geometrii punktowej.
+	--Użyj następujących współrzędnych:
+	--X 8.36093 Y 49.03174    X 8.39876 Y 49.00644 
+	--Przyjmij układ współrzędnych GPS.
+	--DROP TABLE IF EXISTS input_points
+	CREATE TABLE input_points(id INTEGER,geom GEOMETRY);
+	INSERT INTO input_points VALUES(1,ST_GeomFromText('POINT(8.36093 49.03174)',4326));
+	INSERT INTO input_points VALUES(2,ST_GeomFromText('POINT(8.39876 49.00644)',4326));
+	SELECT * FROM input_points;
+	
+ 	--[Zadanie 5] Zaktualizuj dane w tabeli ‘input_points’ tak, aby punkty te były w układzie współrzędnychDHDN.Berlin/Cassini. 
+	--Wyświetl współrzędne za pomocą funkcji ST_AsText().
+	UPDATE input_points SET  
+	geom = ST_Transform(geom, 3068);
+	SELECT ST_AsText(geom) FROM input_points
+
+	--[Zadanie 6] Znajdź wszystkie skrzyżowania, które znajdują się w odległości 200 m od linii zbudowanej z punktów w tabeli  
+	--‘input_points’. Wykorzystaj tabelę T2019_STREET_NODE.Dokonaj reprojekcji geometrii, aby była zgodna z resztą tabel.
+	SELECT * FROM t2019_kar_street_node
+	WHERE ST_Within(ST_Transform(t2019_kar_street_node.geom, 3068), 
+                ST_Buffer(ST_ShortestLine((SELECT geom FROM input_points WHERE id = 1),
+                                          (SELECT geom FROM input_points WHERE id = 2)), 200));
+	
+	--[Zadanie 7] Policz jak wiele sklepów sportowych (‘Sporting Goods Store’ - tabela POIs) znajduje się w odległości 300 m od parków (LAND_USE_A).
+	SELECT DISTINCT poi_id FROM t2019_kar_poi_table
+	CROSS JOIN t2019_kar_land_use_a
+	WHERE t2019_kar_poi_table.type = 'Sporting Goods Store' 
+	AND ST_Distance(t2019_kar_poi_table.geom, t2019_kar_land_use_a.geom) <= 300 
+	
+	
+	
+	--[Zadanie 8] Znajdź punkty przecięcia torów kolejowych (RAILWAYS) z ciekami (WATER_LINES). 
+	--Zapisz znalezioną geometrię do osobnej tabeli o nazwie ‘T2019_KAR_BRIDGES’.
+	SELECT DISTINCT ST_Intersection(t2019_kar_railways.geom,t2019_kar_water_lines.geom) INTO T2019_KAR_BRIDGES
+	FROM t2019_kar_railways,t2019_kar_water_lines
+	SELECT * FROM T2019_KAR_BRIDGES
+	
