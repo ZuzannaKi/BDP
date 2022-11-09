@@ -1,0 +1,46 @@
+CREATE EXTENSION postgis;
+CREATE TABLE obiekty(id int PRIMARY KEY,name VARCHAR(20),geom GEOMETRY);
+--obiekt 1
+INSERT INTO obiekty VALUES
+(1,'obiekt_1',ST_GeomFromText('COMPOUNDCURVE((0 1,1 1),CIRCULARSTRING(1 1,2 0,3 1),CIRCULARSTRING(3 1,4 2,5 1),(5 1,6 1))'));
+
+--obiekt 2
+INSERT INTO obiekty  VALUES
+(2, 'obiekt2', ST_GeomFromText('CURVEPOLYGON(COMPOUNDCURVE( (10 2, 10 6, 14 6)),CIRCULARSTRING(14 6, 16 4, 14 2), 
+								   CIRCULARSTRING(14 2, 12 0, 10 2), CIRCULARSTRING(11 2, 13 2, 11 2))'));
+				
+--obiekt 3
+INSERT INTO obiekty VALUES
+(3, 'obiekt3', ST_GeomFromText('POLYGON((10 17,12 13,7 15,10 17))'));
+
+-- obiekt 4
+INSERT INTO obiekty VALUES
+(4, 'obiekt4', ST_GeomFromText('LINESTRING(20 20,25 25,27 24,25 22,26 21,22 19,20.5 19.5)'));
+
+--obiekt 5
+INSERT INTO obiekty VALUES
+(5,'obiekt_5',ST_GeomFromText('MULTIPOINT ( (30 30 59), (38 32 234) )'));
+
+--obiekt 6
+INSERT INTO obiekty VALUES
+(6,'obiekt_6',ST_GeomFromText('GEOMETRYCOLLECTION ( POINT(4 2), LINESTRING(1 1, 3 2))'));
+
+--[Zadanie 1]. Wyznacz pole powierzchni bufora o wielkości 5 jednostek, który został utworzony wokół 
+   --najkrótszej linii łączącej obiekt 3 i 4.
+   SELECT ST_AREA(ST_BUFFER(ST_SHORTESTLINE((SELECT geom FROM obiekty WHERE id=3),(SELECT geom FROM obiekty WHERE id=4)),5));
+
+--[Zadanie 2]. Zamień obiekt4 na poligon. Jaki warunek musi być spełniony, aby można było wykonać to zadanie? 
+   --Zapewnij te warunki. 
+   -- punkty 20 20 oraz 20.5 19.5 muszą się ze sobą łączyć poprze funkcje ST_MakePolygon 
+   INSERT INTO obiekty VALUES
+  (7,'obiekt4_poligon',ST_MakePolygon(ST_AddPoint((SELECT geom FROM obiekty WHERE id=4),ST_StartPoint((SELECT geom FROM obiekty WHERE id=4)))));
+  
+--[Zadanie 3]. W tabeli obiekty,jako obiekt 7 zapisz obiekt złożony z obiektu 3 i obiektu 4.
+	INSERT INTO obiekty VALUES 
+	(8,'obiekt8',ST_COLLECT((SELECT geom FROM obiekty WHERE id=3),(SELECT geom FROM obiekty WHERE id=4)));
+	
+--[Zadanie 4]. Wyznacz pole powierzchni wszystkich buforów o wielkości 5 jednostek, 
+	--które zostały utworzone wokół obiektów  niezawierających łuków.
+	SELECT SUM(ST_Area(ST_Buffer(geom,5))) FROM obiekty
+	WHERE ST_HasArc(geom) = FALSE
+
