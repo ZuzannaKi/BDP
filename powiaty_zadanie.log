@@ -1,0 +1,721 @@
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|Current FME version: FME 2022.1.2.0 (20220831 - Build 22627 - WIN64)
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|FME Student Edition (node locked-crc)
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|Serial Number: GUFMLMZZPVVK8I6WM0OW
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|Temporary License: 33 days left.
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|Machine host name is: LAPTOP-B83IF2CA
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|OS Locale Name     : pl_PL
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1250
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\zuzan\Desktop\Studia\Semestr 5\BDP\Zajęcia 8/'
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'powiaty_zadanie.fmw'
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.1.2.0'
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 19044)
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|FME Platform: WIN64
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|System Status: 80.19 GB of disk space available in the FME temporary folder (C:\Users\zuzan\AppData\Local\Temp\wbrun_1673199735248_50260\fmetmp_f)
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|System Status: 15.81 GB of physical memory available
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|System Status: 63.25 GB of virtual memory available
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|START - ProcessID: 39208, peak process memory usage: 52580 kB, current process memory usage: 52580 kB
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/Users/zuzan/Desktop/Studia/Semestr 5/BDP/Zajęcia 8\wb-xlate-1673206099649_50260' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `61283' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `61011'
+2023-01-08 20:28:29|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\zuzan\AppData\Roaming\Safe Software\FME\'
+2023-01-08 20:28:30|   0.2|  0.2|INFORM|Using Python interpreter from `C:\Program Files\FME\fmepython39\python39.dll' with PYTHONHOME `C:\Program Files\FME\fmepython39'
+2023-01-08 20:28:30|   0.2|  0.0|INFORM|Python version 3.9 loaded successfully
+2023-01-08 20:28:30|   0.6|  0.4|INFORM|FME_BEGIN_PYTHON: evaluating python script from string...
+2023-01-08 20:28:34|   0.9|  0.3|INFORM|FME_BEGIN_PYTHON: python script execution complete.
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\zuzan\Documents\FME\Formats
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|Shared folders for transformers are : C:\Users\zuzan\AppData\Roaming\Safe Software\FME\Packages\22627-win64\transformers;C:\Program Files\FME\transformers;C:\Users\zuzan\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\zuzan\Documents\FME\CoordinateSystems
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\zuzan\Documents\FME\CoordinateSystemExceptions
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\zuzan\Documents\FME\CoordinateSystemGridOverrides
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\zuzan\Documents\FME\CsmapTransformationExceptions
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\zuzan\Documents\FME\TransformerCategories
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\zuzan\Desktop\Studia\Semestr 5\BDP\Zajęcia 8'
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\zuzan\AppData\Local\Temp\wbrun_1673199735248_50260\fmetmp_f', set from environment variable `FME_TEMP'
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\zuzan\AppData\Local\Temp'
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.44 GB
+2023-01-08 20:28:34|   0.9|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.58 GB
+2023-01-08 20:28:34|   1.0|  0.1|INFORM|Creating writer for format: 
+2023-01-08 20:28:34|   1.0|  0.0|INFORM|Creating reader for format: 
+2023-01-08 20:28:34|   1.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-01-08 20:28:34|   1.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-01-08 20:28:34|   1.0|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-01-08 20:28:34|   1.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-01-08 20:28:34|   1.0|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2023-01-08 20:28:34|   1.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.0|  0.0|INFORM|Loaded module 'TextEncoderFactory' from file 'C:\Program Files\FME\plugins/TextEncoderFactory.dll'
+2023-01-08 20:28:34|   1.0|  0.0|INFORM|FME API version of module 'TextEncoderFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.1|  0.1|INFORM|Loaded module 'Geometry_func' from file 'C:\Program Files\FME\plugins/Geometry_func.dll'
+2023-01-08 20:28:34|   1.2|  0.1|INFORM|FME API version of module 'Geometry_func' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|Loaded module 'HTTPFactory' from file 'C:\Program Files\FME\plugins/HTTPFactory.dll'
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|Loaded module 'StringReplacerFactory' from file 'C:\Program Files\FME\plugins/StringReplacerFactory.dll'
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|FME API version of module 'StringReplacerFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|Loaded module 'AttributeKeeperFactory' from file 'C:\Program Files\FME\plugins/AttributeKeeperFactory.dll'
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|FME API version of module 'AttributeKeeperFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|Loaded module 'XFMapFactory' from file 'C:\Program Files\FME\plugins/XFMapFactory.dll'
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|FME API version of module 'XFMapFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|Loaded module 'StatisticsCalculatorFactory' from file 'C:\Program Files\FME\plugins/StatisticsCalculatorFactory.dll'
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|FME API version of module 'StatisticsCalculatorFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|SentinelDownloader_StatisticsCalculator_2 (StatisticsCalculatorFactory): The following statistics will be calculated 'date{3}.max'
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|Loaded module 'JSONQueryFactory' from file 'C:\Program Files\FME\plugins/JSONQueryFactory.dll'
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|FME API version of module 'JSONQueryFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|Loaded module 'QueryFactory' from file 'C:\Program Files\FME\plugins/QueryFactory.dll'
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.2|  0.0|INFORM|SentinelDownloader_StatisticsCalculator (StatisticsCalculatorFactory): The following statistics will be calculated '_count'
+2023-01-08 20:28:34|   1.4|  0.2|INFORM|Loaded module 'RasterProperties_func' from file 'C:\Program Files\FME\plugins/RasterProperties_func.dll'
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|FME API version of module 'RasterProperties_func' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|Loaded module 'RasterNodata_func' from file 'C:\Program Files\FME\plugins/RasterNodata_func.dll'
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|FME API version of module 'RasterNodata_func' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|Loaded module 'RasterEvaluationFactory' from file 'C:\Program Files\FME\plugins/RasterEvaluationFactory.dll'
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|FME API version of module 'RasterEvaluationFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|Loaded module 'RasterPaletteAttributes_func' from file 'C:\Program Files\FME\plugins/RasterPaletteAttributes_func.dll'
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|FME API version of module 'RasterPaletteAttributes_func' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|Loaded module 'RasterStatisticsFactory' from file 'C:\Program Files\FME\plugins/RasterStatisticsFactory.dll'
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|FME API version of module 'RasterStatisticsFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|Loaded module 'PythonFactory' from file 'C:\Program Files\FME\plugins/PythonFactory.dll'
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Program Files\FME\plugins/InspectorFactory.dll'
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:28:34|   1.4|  0.0|INFORM|Emptying factory pipeline
+2023-01-08 20:28:34|   1.4|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2023-01-08 20:28:34|   1.4|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:34|   1.4|  0.0|STATS |POWIATY_SHAPEFILE_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:34|   1.4|  0.0|STATS |Restoring 1 feature(s) from FME feature store file `C:\Users\zuzan\AppData\Local\Temp\wb-cache-powiaty_zadanie-PpGXPI\Main_TestFilter -1 3 fo 0 nazwa_lt_space_gt_=_lt_space_gt___nazwa_powiatu_  0  11ca321d416aa481d67412e9e1954b3b14f4be47.ffs'
+2023-01-08 20:28:35|   1.9|  0.5|STATS |SentinelDownloader Initiator Input Collector (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_Initiator1673206105 Input Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_GeometryFilter_InputPassThrough (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_GeometryFilter_RouterPrepper (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_GeometryFilter_Router (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_Reprojector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_TESTZDEFAULT (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_TESTMODE (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_LIST (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC_2D_3D (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC_2D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_SPECIFIC_3D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_BoundingBoxReplacer (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_TESTZDEFAULT (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_TESTMODE (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_LIST (TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC_2D_3D (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC_2D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-08 20:28:35|   1.9|  0.0|STATS |SentinelDownloader_CoordinateExtractor_2_SPECIFIC_3D (ExecuteFunctionFactory): Executed FME Functions on 0 input feature(s) -- 0 feature(s) completed and 0 feature(s) rejected
+2023-01-08 20:28:36|   3.0|  1.1|INFORM|SentinelDownloader_HTTPCaller (HTTPFactory): [1]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:36|   3.0|  0.0|INFORM|SentinelDownloader_HTTPCaller (HTTPFactory): [1]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 5556 bytes, DNS lookup time: 97 ms, total transfer time: 1103 ms
+2023-01-08 20:28:37|   3.4|  0.4|STATS |SentinelDownloader_TestFilter_INPUT (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:37|   3.4|  0.0|STATS |SentinelDownloader_TestFilter (TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:37|   3.4|  0.0|STATS |SentinelDownloader_Junction_5 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-08 20:28:37|   3.4|  0.0|INFORM|SentinelDownloader_XMLFragmenter (XFMapFactory): Total Results: 10 Mapped Feature(s), 1 Input Feature(s), and 0 Invalid input Feature(s)
+2023-01-08 20:28:37|   3.4|  0.0|STATS |SentinelDownloader_Tester_2 (TestFactory): Tested 10 input feature(s) -- 10 feature(s) passed and 0 feature(s) failed
+2023-01-08 20:28:37|   3.4|  0.0|INFORM|SentinelDownloader_Sorter (SortFactory): Starting sorting 10 feature(s)
+2023-01-08 20:28:37|   3.4|  0.0|INFORM|SentinelDownloader_Sorter (SortFactory): Done sorting 10 feature(s)
+2023-01-08 20:28:37|   3.7|  0.3|STATS |SentinelDownloader_Sorter (SortFactory): Finished sorting a total of 10 features.
+2023-01-08 20:28:37|   3.7|  0.0|STATS |SentinelDownloader_DateTimeConverter_1 (TeeFactory): Cloned 10 input feature(s) into 10 output feature(s)
+2023-01-08 20:28:37|   3.7|  0.0|STATS |SentinelDownloader_DateTimeConverter_Rejector (TestFactory): Tested 10 input feature(s) -- 0 feature(s) passed and 10 feature(s) failed
+2023-01-08 20:28:37|   4.4|  0.7|INFORM|SentinelDownloader_StatisticsCalculator_2 (StatisticsCalculatorFactory): Processing complete
+2023-01-08 20:28:37|   4.4|  0.0|STATS |SentinelDownloader_Tester_3 (TestFactory): Tested 10 input feature(s) -- 2 feature(s) passed and 8 feature(s) failed
+2023-01-08 20:28:38|   4.7|  0.3|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [2]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 4 bytes
+2023-01-08 20:28:38|   4.7|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [2]: HTTP Download: received 4 bytes
+2023-01-08 20:28:38|   4.7|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [2]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 4 bytes, DNS lookup time: 3 ms, total transfer time: 504 ms
+2023-01-08 20:28:38|   4.7|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [3]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 4 bytes
+2023-01-08 20:28:38|   4.7|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [3]: HTTP Download: received 4 bytes
+2023-01-08 20:28:38|   4.7|  0.0|INFORM|SentinelDownloader_HTTPCaller_6 (HTTPFactory): [3]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 4 bytes, DNS lookup time: 0 ms, total transfer time: 501 ms
+2023-01-08 20:28:38|   4.9|  0.2|WARN  |SentinelDownloader_Logger_5: Reqeusted data is ONLINE. Download will be triggered now.
+2023-01-08 20:28:40|   6.4|  1.5|WARN  |SentinelDownloader_Logger_5: Reqeusted data is ONLINE. Download will be triggered now.
+2023-01-08 20:28:40|   6.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [5]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:40|   6.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [5]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 394 bytes, DNS lookup time: 0 ms, total transfer time: 1405 ms
+2023-01-08 20:28:40|   6.8|  0.4|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [4]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:40|   6.8|  0.0|INFORM|SentinelDownloader_HTTPCaller_4 (HTTPFactory): [4]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 392 bytes, DNS lookup time: 7 ms, total transfer time: 1859 ms
+2023-01-08 20:28:42|   9.1|  2.3|INFORM|SentinelDownloader_HTTPCaller_7 (HTTPFactory): [7]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:42|   9.1|  0.0|INFORM|SentinelDownloader_HTTPCaller_7 (HTTPFactory): [7]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 409 bytes, DNS lookup time: 34 ms, total transfer time: 1932 ms
+2023-01-08 20:28:52|  18.6|  9.5|INFORM|SentinelDownloader_HTTPCaller_7 (HTTPFactory): [6]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:52|  18.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_7 (HTTPFactory): [6]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 410 bytes, DNS lookup time: 36 ms, total transfer time: 11575 ms
+2023-01-08 20:28:54|  20.7|  2.1|INFORM|SentinelDownloader_HTTPCaller_9 (HTTPFactory): [9]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:54|  20.7|  0.0|INFORM|SentinelDownloader_HTTPCaller_9 (HTTPFactory): [9]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 515 bytes, DNS lookup time: 21 ms, total transfer time: 1640 ms
+2023-01-08 20:28:56|  22.7|  2.0|INFORM|SentinelDownloader_HTTPCaller_9 (HTTPFactory): [8]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:28:56|  22.7|  0.0|INFORM|SentinelDownloader_HTTPCaller_9 (HTTPFactory): [8]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 515 bytes, DNS lookup time: 22 ms, total transfer time: 3757 ms
+2023-01-08 20:29:02|  28.0|  5.3|INFORM|SentinelDownloader_HTTPCaller_8 (HTTPFactory): [10]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:29:02|  28.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_8 (HTTPFactory): [10]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 761 bytes, DNS lookup time: 4 ms, total transfer time: 4902 ms
+2023-01-08 20:29:05|  30.8|  2.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 114.90 MB
+2023-01-08 20:29:05|  31.4|  0.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 116.20 MB
+2023-01-08 20:29:33|  57.9| 26.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 10.01 MB
+2023-01-08 20:29:46|  70.2| 12.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 10.01 MB
+2023-01-08 20:29:56|  80.1|  9.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 20.09 MB
+2023-01-08 20:30:14|  96.6| 16.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 20.08 MB
+2023-01-08 20:30:21| 103.6|  7.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 30.10 MB
+2023-01-08 20:30:40| 122.0| 18.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 40.11 MB
+2023-01-08 20:30:40| 122.5|  0.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 30.09 MB
+2023-01-08 20:30:55| 136.5| 14.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 50.12 MB
+2023-01-08 20:30:56| 137.4|  0.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 40.10 MB
+2023-01-08 20:32:00| 200.2| 62.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 50.11 MB
+2023-01-08 20:32:19| 218.5| 18.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 60.12 MB
+2023-01-08 20:32:45| 243.6| 25.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 60.12 MB
+2023-01-08 20:32:50| 248.9|  5.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 70.13 MB
+2023-01-08 20:32:58| 256.9|  8.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 80.14 MB
+2023-01-08 20:33:06| 265.0|  8.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 90.15 MB
+2023-01-08 20:33:07| 265.8|  0.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 70.12 MB
+2023-01-08 20:33:21| 279.0| 13.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 100.15 MB
+2023-01-08 20:33:30| 287.6|  8.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 80.13 MB
+2023-01-08 20:33:37| 295.5|  7.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 110.16 MB
+2023-01-08 20:33:45| 302.6|  7.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP Download: received 116.20 MB
+2023-01-08 20:33:45| 302.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [12]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 121840377 bytes, DNS lookup time: 102 ms, total transfer time: 282239 ms
+2023-01-08 20:33:45| 303.4|  0.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 90.14 MB
+2023-01-08 20:33:58| 315.8| 12.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 100.15 MB
+2023-01-08 20:34:05| 323.5|  7.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 110.15 MB
+2023-01-08 20:34:08| 326.0|  2.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP Download: received 114.90 MB
+2023-01-08 20:34:08| 326.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [11]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 120478656 bytes, DNS lookup time: 103 ms, total transfer time: 305665 ms
+2023-01-08 20:34:08| 326.2|  0.2|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:34:08| 326.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:34:08| 326.4|  0.2|INFORM|Loaded module 'JPEG2000' from file 'C:\Program Files\FME\plugins/gdal/GDAL.dll'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|FME API version of module 'gdal/GDAL' matches current internal version (4.0 20220615)
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDV_20221115T094251_B02_10m.jp2'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDV_20221115T094251_B02_10m.jp2'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|The EPSG number of the FME coordinate system 'UTM84-34N' is '32634'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_2[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDV_20221115T094251_B02_10m.jp2'
+2023-01-08 20:34:08| 326.4|  0.0|INFORM|Merged 1 schema features read from 1 datasets into 1 resulting feature types
+2023-01-08 20:34:14| 352.7| 26.3|INFORM|FFS writer: Completed 83.94% of intermediate processing
+2023-01-08 20:34:14| 354.9|  2.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:34:19| 363.4|  8.5|INFORM|FFS writer: Completed 10.35% of intermediate processing
+2023-01-08 20:34:24| 372.1|  8.7|INFORM|FFS writer: Completed 19.3% of intermediate processing
+2023-01-08 20:34:29| 380.5|  8.4|INFORM|FFS writer: Completed 28.34% of intermediate processing
+2023-01-08 20:34:34| 389.7|  9.2|INFORM|FFS writer: Completed 37.61% of intermediate processing
+2023-01-08 20:34:39| 398.4|  8.7|INFORM|FFS writer: Completed 47.03% of intermediate processing
+2023-01-08 20:34:44| 406.5|  8.1|INFORM|FFS writer: Completed 55.77% of intermediate processing
+2023-01-08 20:34:49| 415.4|  8.9|INFORM|FFS writer: Completed 65.16% of intermediate processing
+2023-01-08 20:34:54| 424.1|  8.7|INFORM|FFS writer: Completed 74.38% of intermediate processing
+2023-01-08 20:34:59| 433.7|  9.6|INFORM|FFS writer: Completed 83.96% of intermediate processing
+2023-01-08 20:35:04| 442.9|  9.2|INFORM|FFS writer: Completed 93.33% of intermediate processing
+2023-01-08 20:35:07| 448.2|  5.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:35:12| 456.6|  8.4|INFORM|FFS writer: Completed 9.17% of intermediate processing
+2023-01-08 20:35:17| 465.0|  8.4|INFORM|FFS writer: Completed 17.79% of intermediate processing
+2023-01-08 20:35:22| 474.2|  9.2|INFORM|FFS writer: Completed 26.72% of intermediate processing
+2023-01-08 20:35:27| 482.9|  8.7|INFORM|FFS writer: Completed 35.21% of intermediate processing
+2023-01-08 20:35:32| 491.8|  8.9|INFORM|FFS writer: Completed 45.59% of intermediate processing
+2023-01-08 20:35:37| 501.3|  9.5|INFORM|FFS writer: Completed 54.28% of intermediate processing
+2023-01-08 20:35:42| 508.8|  7.5|INFORM|FFS writer: Completed 63.47% of intermediate processing
+2023-01-08 20:35:47| 516.9|  8.1|INFORM|FFS writer: Completed 74.38% of intermediate processing
+2023-01-08 20:35:52| 525.0|  8.1|INFORM|FFS writer: Completed 84.14% of intermediate processing
+2023-01-08 20:35:57| 532.7|  7.7|INFORM|FFS writer: Completed 93.1% of intermediate processing
+2023-01-08 20:36:01| 539.1|  6.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:36:01| 539.4|  0.3|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:36:01| 539.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:36:01| 539.4|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDV_20221115T094251_B03_10m.jp2'
+2023-01-08 20:36:01| 539.4|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:36:01| 539.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:36:01| 539.4|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:36:01| 539.4|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:36:01| 539.4|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDV_20221115T094251_B03_10m.jp2'
+2023-01-08 20:36:01| 539.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_4[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 20:36:01| 539.4|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 20:36:11| 576.5| 37.1|INFORM|FFS writer: Completed 12% of intermediate processing
+2023-01-08 20:36:16| 584.8|  8.3|INFORM|FFS writer: Completed 21.31% of intermediate processing
+2023-01-08 20:36:21| 593.4|  8.6|INFORM|FFS writer: Completed 30.5% of intermediate processing
+2023-01-08 20:36:26| 601.7|  8.3|INFORM|FFS writer: Completed 39.67% of intermediate processing
+2023-01-08 20:36:31| 610.2|  8.5|INFORM|FFS writer: Completed 48.77% of intermediate processing
+2023-01-08 20:36:36| 619.0|  8.8|INFORM|FFS writer: Completed 58.04% of intermediate processing
+2023-01-08 20:36:41| 627.8|  8.8|INFORM|FFS writer: Completed 67.18% of intermediate processing
+2023-01-08 20:36:46| 636.7|  8.9|INFORM|FFS writer: Completed 75.87% of intermediate processing
+2023-01-08 20:36:51| 645.5|  8.8|INFORM|FFS writer: Completed 85.13% of intermediate processing
+2023-01-08 20:36:56| 654.3|  8.8|INFORM|FFS writer: Completed 93.85% of intermediate processing
+2023-01-08 20:36:58| 659.6|  5.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:37:04| 668.5|  8.9|INFORM|FFS writer: Completed 9.4% of intermediate processing
+2023-01-08 20:37:09| 676.8|  8.3|INFORM|FFS writer: Completed 18.72% of intermediate processing
+2023-01-08 20:37:14| 685.5|  8.7|INFORM|FFS writer: Completed 28% of intermediate processing
+2023-01-08 20:37:19| 694.3|  8.8|INFORM|FFS writer: Completed 37.38% of intermediate processing
+2023-01-08 20:37:24| 703.5|  9.2|INFORM|FFS writer: Completed 46.63% of intermediate processing
+2023-01-08 20:37:29| 712.1|  8.6|INFORM|FFS writer: Completed 56.72% of intermediate processing
+2023-01-08 20:37:34| 720.1|  8.0|INFORM|FFS writer: Completed 65.83% of intermediate processing
+2023-01-08 20:37:39| 728.1|  8.0|INFORM|FFS writer: Completed 74.92% of intermediate processing
+2023-01-08 20:37:44| 736.9|  8.8|INFORM|FFS writer: Completed 84.17% of intermediate processing
+2023-01-08 20:37:49| 746.0|  9.1|INFORM|FFS writer: Completed 92.93% of intermediate processing
+2023-01-08 20:37:52| 752.3|  6.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:37:54| 754.3|  2.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 117.23 MB
+2023-01-08 20:37:55| 755.5|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 128.70 MB
+2023-01-08 20:38:05| 764.9|  9.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 10.01 MB
+2023-01-08 20:38:14| 773.1|  8.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 20.02 MB
+2023-01-08 20:38:16| 775.5|  2.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 10.01 MB
+2023-01-08 20:38:21| 780.3|  4.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 30.02 MB
+2023-01-08 20:38:29| 787.9|  7.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 20.02 MB
+2023-01-08 20:38:33| 791.4|  3.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 40.03 MB
+2023-01-08 20:38:39| 797.3|  5.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 30.02 MB
+2023-01-08 20:38:48| 807.0|  9.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 50.04 MB
+2023-01-08 20:38:49| 807.1|  0.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 40.03 MB
+2023-01-08 20:38:59| 817.3| 10.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 60.05 MB
+2023-01-08 20:38:59| 817.5|  0.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 50.04 MB
+2023-01-08 20:39:09| 827.4|  9.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 70.06 MB
+2023-01-08 20:39:10| 828.3|  0.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 60.05 MB
+2023-01-08 20:39:19| 837.6|  9.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 70.06 MB
+2023-01-08 20:39:23| 841.7|  4.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 80.06 MB
+2023-01-08 20:39:33| 851.8| 10.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 80.06 MB
+2023-01-08 20:39:38| 857.0|  5.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 90.07 MB
+2023-01-08 20:39:49| 868.4| 11.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 90.07 MB
+2023-01-08 20:40:10| 887.7| 19.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 100.08 MB
+2023-01-08 20:40:11| 888.9|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 100.08 MB
+2023-01-08 20:40:35| 912.9| 24.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 110.09 MB
+2023-01-08 20:40:38| 915.6|  2.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 110.09 MB
+2023-01-08 20:40:54| 932.0| 16.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP Download: received 117.23 MB
+2023-01-08 20:40:54| 932.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [13]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 122921860 bytes, DNS lookup time: 72 ms, total transfer time: 182344 ms
+2023-01-08 20:40:55| 932.4|  0.4|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:40:55| 932.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:40:55| 932.4|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDV_20221115T094251_B04_10m.jp2'
+2023-01-08 20:40:55| 932.5|  0.1|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:40:55| 932.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:40:55| 932.6|  0.1|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:40:55| 932.6|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:40:55| 932.6|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDV_20221115T094251_B04_10m.jp2'
+2023-01-08 20:40:55| 932.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_6[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 20:40:55| 932.6|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 20:40:59| 958.7| 26.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 120.09 MB
+2023-01-08 20:41:05| 977.7| 19.0|INFORM|FFS writer: Completed 10.22% of intermediate processing
+2023-01-08 20:41:05| 980.2|  2.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP Download: received 128.70 MB
+2023-01-08 20:41:05| 980.2|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [14]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 134952925 bytes, DNS lookup time: 68 ms, total transfer time: 193294 ms
+2023-01-08 20:41:10| 987.2|  7.0|INFORM|FFS writer: Completed 20.06% of intermediate processing
+2023-01-08 20:41:15| 997.0|  9.8|INFORM|FFS writer: Completed 30.11% of intermediate processing
+2023-01-08 20:41:20|1006.0|  9.0|INFORM|FFS writer: Completed 39.79% of intermediate processing
+2023-01-08 20:41:25|1015.1|  9.1|INFORM|FFS writer: Completed 49.97% of intermediate processing
+2023-01-08 20:41:30|1023.4|  8.3|INFORM|FFS writer: Completed 60.2% of intermediate processing
+2023-01-08 20:41:35|1032.2|  8.8|INFORM|FFS writer: Completed 70.24% of intermediate processing
+2023-01-08 20:41:40|1041.8|  9.6|INFORM|FFS writer: Completed 80.38% of intermediate processing
+2023-01-08 20:41:45|1050.7|  8.9|INFORM|FFS writer: Completed 90.51% of intermediate processing
+2023-01-08 20:41:49|1058.8|  8.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:41:54|1066.8|  8.0|INFORM|FFS writer: Completed 9.48% of intermediate processing
+2023-01-08 20:41:59|1076.1|  9.3|INFORM|FFS writer: Completed 19.69% of intermediate processing
+2023-01-08 20:42:04|1085.1|  9.0|INFORM|FFS writer: Completed 29.82% of intermediate processing
+2023-01-08 20:42:09|1094.9|  9.8|INFORM|FFS writer: Completed 39.94% of intermediate processing
+2023-01-08 20:42:14|1104.1|  9.2|INFORM|FFS writer: Completed 49.97% of intermediate processing
+2023-01-08 20:42:19|1112.2|  8.1|INFORM|FFS writer: Completed 59.78% of intermediate processing
+2023-01-08 20:42:24|1120.7|  8.5|INFORM|FFS writer: Completed 69.68% of intermediate processing
+2023-01-08 20:42:29|1129.5|  8.8|INFORM|FFS writer: Completed 79.6% of intermediate processing
+2023-01-08 20:42:34|1138.7|  9.2|INFORM|FFS writer: Completed 89.6% of intermediate processing
+2023-01-08 20:42:39|1147.3|  8.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:42:44|1155.7|  8.4|INFORM|FFS writer: Completed 10.22% of intermediate processing
+2023-01-08 20:42:49|1164.5|  8.8|INFORM|FFS writer: Completed 20.18% of intermediate processing
+2023-01-08 20:42:54|1173.4|  8.9|INFORM|FFS writer: Completed 29.59% of intermediate processing
+2023-01-08 20:42:59|1182.7|  9.3|INFORM|FFS writer: Completed 39.24% of intermediate processing
+2023-01-08 20:43:04|1192.0|  9.3|INFORM|FFS writer: Completed 49.21% of intermediate processing
+2023-01-08 20:43:09|1201.2|  9.2|INFORM|FFS writer: Completed 59.35% of intermediate processing
+2023-01-08 20:43:14|1210.5|  9.3|INFORM|FFS writer: Completed 69.29% of intermediate processing
+2023-01-08 20:43:19|1219.8|  9.3|INFORM|FFS writer: Completed 79.36% of intermediate processing
+2023-01-08 20:43:24|1228.4|  8.6|INFORM|FFS writer: Completed 89.08% of intermediate processing
+2023-01-08 20:43:29|1237.6|  9.2|INFORM|FFS writer: Completed 99.68% of intermediate processing
+2023-01-08 20:43:29|1237.7|  0.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:43:29|1237.7|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:43:29|1237.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:43:29|1237.7|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDV_20221115T094251_B08_10m.jp2'
+2023-01-08 20:43:29|1237.7|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:43:29|1237.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:43:29|1237.7|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:43:29|1237.7|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:43:29|1237.7|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDV_20221115T094251_B08_10m.jp2'
+2023-01-08 20:43:29|1237.8|  0.1|INFORM|FME Configuration: Source coordinate system for reader R_8[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 20:43:29|1237.8|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 20:43:34|1267.6| 29.8|INFORM|FFS writer: Completed 88.6% of intermediate processing
+2023-01-08 20:43:34|1269.6|  2.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:43:39|1278.8|  9.2|INFORM|FFS writer: Completed 10.47% of intermediate processing
+2023-01-08 20:43:44|1287.3|  8.5|INFORM|FFS writer: Completed 19.36% of intermediate processing
+2023-01-08 20:43:49|1296.3|  9.0|INFORM|FFS writer: Completed 26.43% of intermediate processing
+2023-01-08 20:43:54|1304.0|  7.7|INFORM|FFS writer: Completed 32.82% of intermediate processing
+2023-01-08 20:43:59|1312.4|  8.4|INFORM|FFS writer: Completed 39.1% of intermediate processing
+2023-01-08 20:44:04|1321.5|  9.1|INFORM|FFS writer: Completed 49.18% of intermediate processing
+2023-01-08 20:44:09|1330.5|  9.0|INFORM|FFS writer: Completed 59.44% of intermediate processing
+2023-01-08 20:44:14|1339.3|  8.8|INFORM|FFS writer: Completed 69.43% of intermediate processing
+2023-01-08 20:44:19|1348.7|  9.4|INFORM|FFS writer: Completed 79.54% of intermediate processing
+2023-01-08 20:44:24|1358.2|  9.5|INFORM|FFS writer: Completed 89.64% of intermediate processing
+2023-01-08 20:44:29|1366.8|  8.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:44:34|1375.7|  8.9|INFORM|FFS writer: Completed 9.43% of intermediate processing
+2023-01-08 20:44:39|1384.4|  8.7|INFORM|FFS writer: Completed 19.19% of intermediate processing
+2023-01-08 20:44:44|1393.2|  8.8|INFORM|FFS writer: Completed 29.38% of intermediate processing
+2023-01-08 20:44:49|1401.8|  8.6|INFORM|FFS writer: Completed 39.55% of intermediate processing
+2023-01-08 20:44:54|1411.2|  9.4|INFORM|FFS writer: Completed 49.46% of intermediate processing
+2023-01-08 20:44:59|1419.5|  8.3|INFORM|FFS writer: Completed 59.48% of intermediate processing
+2023-01-08 20:45:04|1428.8|  9.3|INFORM|FFS writer: Completed 69.55% of intermediate processing
+2023-01-08 20:45:09|1437.5|  8.7|INFORM|FFS writer: Completed 79.6% of intermediate processing
+2023-01-08 20:45:14|1446.7|  9.2|INFORM|FFS writer: Completed 89.69% of intermediate processing
+2023-01-08 20:45:19|1455.7|  9.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:45:24|1465.0|  9.3|INFORM|FFS writer: Completed 10.1% of intermediate processing
+2023-01-08 20:45:29|1473.2|  8.2|INFORM|FFS writer: Completed 20.2% of intermediate processing
+2023-01-08 20:45:34|1481.6|  8.4|INFORM|FFS writer: Completed 30% of intermediate processing
+2023-01-08 20:45:39|1490.3|  8.7|INFORM|FFS writer: Completed 40% of intermediate processing
+2023-01-08 20:45:44|1499.4|  9.1|INFORM|FFS writer: Completed 49.92% of intermediate processing
+2023-01-08 20:45:49|1507.9|  8.5|INFORM|FFS writer: Completed 60.16% of intermediate processing
+2023-01-08 20:45:54|1516.9|  9.0|INFORM|FFS writer: Completed 70.17% of intermediate processing
+2023-01-08 20:45:59|1525.6|  8.7|INFORM|FFS writer: Completed 80.34% of intermediate processing
+2023-01-08 20:46:04|1534.5|  8.9|INFORM|FFS writer: Completed 89.81% of intermediate processing
+2023-01-08 20:46:09|1543.3|  8.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:46:14|1551.3|  8.0|INFORM|FFS writer: Completed 3.56% of intermediate processing
+2023-01-08 20:46:19|1559.6|  8.3|INFORM|FFS writer: Completed 6.86% of intermediate processing
+2023-01-08 20:46:24|1567.2|  7.6|INFORM|FFS writer: Completed 9.91% of intermediate processing
+2023-01-08 20:46:29|1574.6|  7.4|INFORM|FFS writer: Completed 13.16% of intermediate processing
+2023-01-08 20:46:34|1582.2|  7.6|INFORM|FFS writer: Completed 16.24% of intermediate processing
+2023-01-08 20:46:39|1590.2|  8.0|INFORM|FFS writer: Completed 19.13% of intermediate processing
+2023-01-08 20:46:44|1597.9|  7.7|INFORM|FFS writer: Completed 22.23% of intermediate processing
+2023-01-08 20:46:49|1605.5|  7.6|INFORM|FFS writer: Completed 25.1% of intermediate processing
+2023-01-08 20:46:54|1612.9|  7.4|INFORM|FFS writer: Completed 28.16% of intermediate processing
+2023-01-08 20:46:59|1620.2|  7.3|INFORM|FFS writer: Completed 31.36% of intermediate processing
+2023-01-08 20:47:04|1627.1|  6.9|INFORM|FFS writer: Completed 34.47% of intermediate processing
+2023-01-08 20:47:09|1633.8|  6.7|INFORM|FFS writer: Completed 37.29% of intermediate processing
+2023-01-08 20:47:14|1641.8|  8.0|INFORM|FFS writer: Completed 40.07% of intermediate processing
+2023-01-08 20:47:19|1648.7|  6.9|INFORM|FFS writer: Completed 42.9% of intermediate processing
+2023-01-08 20:47:24|1655.9|  7.2|INFORM|FFS writer: Completed 45.69% of intermediate processing
+2023-01-08 20:47:29|1663.2|  7.3|INFORM|FFS writer: Completed 48.75% of intermediate processing
+2023-01-08 20:47:34|1670.2|  7.0|INFORM|FFS writer: Completed 51.77% of intermediate processing
+2023-01-08 20:47:39|1677.0|  6.8|INFORM|FFS writer: Completed 54.34% of intermediate processing
+2023-01-08 20:47:44|1684.2|  7.2|INFORM|FFS writer: Completed 57% of intermediate processing
+2023-01-08 20:47:49|1691.0|  6.8|INFORM|FFS writer: Completed 59.6% of intermediate processing
+2023-01-08 20:47:54|1697.8|  6.8|INFORM|FFS writer: Completed 62.02% of intermediate processing
+2023-01-08 20:47:59|1704.8|  7.0|INFORM|FFS writer: Completed 64.56% of intermediate processing
+2023-01-08 20:48:04|1711.9|  7.1|INFORM|FFS writer: Completed 67.07% of intermediate processing
+2023-01-08 20:48:09|1719.5|  7.6|INFORM|FFS writer: Completed 69.68% of intermediate processing
+2023-01-08 20:48:14|1726.4|  6.9|INFORM|FFS writer: Completed 72.11% of intermediate processing
+2023-01-08 20:48:19|1733.5|  7.1|INFORM|FFS writer: Completed 74.54% of intermediate processing
+2023-01-08 20:48:24|1740.6|  7.1|INFORM|FFS writer: Completed 77.13% of intermediate processing
+2023-01-08 20:48:29|1747.6|  7.0|INFORM|FFS writer: Completed 79.68% of intermediate processing
+2023-01-08 20:48:34|1754.5|  6.9|INFORM|FFS writer: Completed 82.09% of intermediate processing
+2023-01-08 20:48:39|1761.5|  7.0|INFORM|FFS writer: Completed 84.52% of intermediate processing
+2023-01-08 20:48:44|1768.5|  7.0|INFORM|FFS writer: Completed 86.81% of intermediate processing
+2023-01-08 20:48:49|1775.5|  7.0|INFORM|FFS writer: Completed 89.02% of intermediate processing
+2023-01-08 20:48:54|1782.3|  6.8|INFORM|FFS writer: Completed 91.19% of intermediate processing
+2023-01-08 20:48:59|1788.6|  6.3|INFORM|FFS writer: Completed 93.48% of intermediate processing
+2023-01-08 20:49:04|1795.3|  6.7|INFORM|FFS writer: Completed 95.74% of intermediate processing
+2023-01-08 20:49:09|1802.2|  6.9|INFORM|FFS writer: Completed 98.06% of intermediate processing
+2023-01-08 20:49:13|1808.2|  6.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:49:13|1808.2|  0.0|STATS |Restoring 1 feature(s) from FME feature store file `C:\Users\zuzan\AppData\Local\Temp\wb-cache-powiaty_zadanie-PpGXPI\Main_TestFilter -1 3 fo 0 nazwa_lt_space_gt_=_lt_space_gt___nazwa_powiatu_  0  11ca321d416aa481d67412e9e1954b3b14f4be47.ffs'
+2023-01-08 20:49:13|1808.2|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\zuzan\AppData\Local\Temp\wb-inspectors-kMqRmv\inspector.ffs'
+2023-01-08 20:49:14|1808.6|  0.4|INFORM|Creating writer for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-01-08 20:49:14|1808.7|  0.1|INFORM|Trying to find a DYNAMIC plugin for writer named `GEOTIFF'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|Writer `GEOTIFF_1' of type `GEOTIFF' using group definition keyword `GEOTIFF_1_DEF'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|GEOTIFF writer: Setting writer level option '_WRITE_OFFSETS_IN_CS_UNITS' to value 'Yes'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|GEOTIFF writer: Setting writer level option '_WRITE_PROJECTED_COORDSYS_AS_EPSG_CODE' to value 'Yes'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|GEOTIFF writer: Setting writer level option '_WRITE_GEOGRAPHIC_COORDSYS_AS_EPSG_CODE' to value 'Yes'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|GEOTIFF writer: Setting writer level option '_WRITE_GEOGRAPHIC_KEYS_FOR_PROJECTED_COORDSYS' to value 'Yes'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|GEOTIFF writer: Setting writer level option '_WRITE_ESRI_COMPATIBLE_COORDSYS' to value 'No'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_world_file_generation' to value 'no' for feature type 'wynik'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_compression_method' to value 'none' for feature type 'wynik'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_jpeg_compression_level' to value '25' for feature type 'wynik'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_deflate_compression_level' to value '6' for feature type 'wynik'
+2023-01-08 20:49:14|1808.7|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_zstd_compression_level' to value '9' for feature type 'wynik'
+2023-01-08 20:49:14|1808.8|  0.1|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_tab_file_generation' to value 'no' for feature type 'wynik'
+2023-01-08 20:49:14|1808.8|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_interleaving_type' to value 'BSQ' for feature type 'wynik'
+2023-01-08 20:49:14|1808.8|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_byte_order' to value 'machine' for feature type 'wynik'
+2023-01-08 20:49:14|1808.8|  0.0|INFORM|GEOTIFF writer: Setting feature type level option 'geotiff_calculate_minmax_tifftags' to value 'no' for feature type 'wynik'
+2023-01-08 20:49:39|1832.6| 23.8|INFORM|GEOTIFF writer: Completed 91.9% of intermediate processing
+2023-01-08 20:49:41|1834.8|  2.2|INFORM|Loaded module 'PointCloudEvaluationFactory' from file 'C:\Program Files\FME\plugins/PointCloudEvaluationFactory.dll'
+2023-01-08 20:49:41|1834.8|  0.0|INFORM|FME API version of module 'PointCloudEvaluationFactory' matches current internal version (4.0 20220615)
+2023-01-08 20:49:46|1839.9|  5.1|INFORM|createPointCloudFromRaster::NodataFilter (PointCloudEvaluationFactory): Filtered 19210000 of 120560400 points
+2023-01-08 20:49:51|1844.8|  4.9|INFORM|createPointCloudFromRaster::NodataFilter (PointCloudEvaluationFactory): Filtered 38790000 of 120560400 points
+2023-01-08 20:49:56|1849.9|  5.1|INFORM|createPointCloudFromRaster::NodataFilter (PointCloudEvaluationFactory): Filtered 57890000 of 120560400 points
+2023-01-08 20:50:01|1854.9|  5.0|INFORM|createPointCloudFromRaster::NodataFilter (PointCloudEvaluationFactory): Filtered 75570000 of 120560400 points
+2023-01-08 20:50:06|1860.0|  5.1|INFORM|createPointCloudFromRaster::NodataFilter (PointCloudEvaluationFactory): Filtered 93280000 of 120560400 points
+2023-01-08 20:50:11|1864.9|  4.9|INFORM|createPointCloudFromRaster::NodataFilter (PointCloudEvaluationFactory): Filtered 110990000 of 120560400 points
+2023-01-08 20:50:14|1867.5|  2.6|INFORM|createPointCloudFromRaster::NodataFilter (PointCloudEvaluationFactory): Filtered 120560400 of 120560400 points
+2023-01-08 20:50:14|1867.5|  0.0|INFORM|Loaded module 'CalculatePointCloudStatistics_func' from file 'C:\Program Files\FME\plugins/CalculatePointCloudStatistics_func.dll'
+2023-01-08 20:50:14|1867.5|  0.0|INFORM|FME API version of module 'CalculatePointCloudStatistics_func' matches current internal version (4.0 20220615)
+2023-01-08 20:50:21|1874.7|  7.2|INFORM|FFS writer: Completed 17.1% of intermediate processing
+2023-01-08 20:50:26|1879.8|  5.1|INFORM|FFS writer: Completed 34.35% of intermediate processing
+2023-01-08 20:50:31|1884.6|  4.8|INFORM|FFS writer: Completed 51.05% of intermediate processing
+2023-01-08 20:50:36|1889.5|  4.9|INFORM|FFS writer: Completed 66.98% of intermediate processing
+2023-01-08 20:50:41|1894.0|  4.5|INFORM|FFS writer: Completed 82.82% of intermediate processing
+2023-01-08 20:50:45|1897.7|  3.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:50:46|1898.4|  0.7|INFORM|Updating access token for 'zuzan Google Gmail (safe.emailer)'
+2023-01-08 20:50:52|1903.1|  4.7|INFORM|FFS writer: Completed 25.61% of intermediate processing
+2023-01-08 20:50:57|1907.9|  4.8|INFORM|FFS writer: Completed 42.41% of intermediate processing
+2023-01-08 20:51:02|1912.7|  4.8|INFORM|FFS writer: Completed 60.59% of intermediate processing
+2023-01-08 20:51:07|1917.8|  5.1|INFORM|FFS writer: Completed 78.46% of intermediate processing
+2023-01-08 20:51:12|1922.7|  4.9|INFORM|FFS writer: Completed 93.96% of intermediate processing
+2023-01-08 20:51:14|1924.5|  1.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:51:19|1931.6|  7.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 129.02 MB
+2023-01-08 20:51:27|1947.1| 15.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 10.01 MB
+2023-01-08 20:51:37|1965.9| 18.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 20.01 MB
+2023-01-08 20:51:38|1968.2|  2.3|INFORM|SentinelDownloader_HTTPCaller_8 (HTTPFactory): [16]: Starting HTTP download from 'scihub.copernicus.eu'
+2023-01-08 20:51:38|1968.2|  0.0|INFORM|SentinelDownloader_HTTPCaller_8 (HTTPFactory): [16]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 758 bytes, DNS lookup time: 5 ms, total transfer time: 21329 ms
+2023-01-08 20:51:40|1970.3|  2.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 119.56 MB
+2023-01-08 20:51:56|1985.6| 15.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 10.00 MB
+2023-01-08 20:51:57|1986.8|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 30.02 MB
+2023-01-08 20:52:15|2004.3| 17.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 40.03 MB
+2023-01-08 20:52:18|2007.4|  3.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 20.01 MB
+2023-01-08 20:52:32|2020.4| 13.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 50.04 MB
+2023-01-08 20:52:44|2032.1| 11.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 30.02 MB
+2023-01-08 20:52:46|2034.5|  2.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 60.04 MB
+2023-01-08 20:52:59|2047.2| 12.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 40.02 MB
+2023-01-08 20:53:08|2057.0|  9.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 70.05 MB
+2023-01-08 20:53:21|2069.2| 12.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 50.03 MB
+2023-01-08 20:53:23|2071.4|  2.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 80.06 MB
+2023-01-08 20:53:37|2085.6| 14.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 90.07 MB
+2023-01-08 20:53:38|2086.6|  1.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 60.04 MB
+2023-01-08 20:53:50|2099.1| 12.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 70.05 MB
+2023-01-08 20:54:00|2108.9|  9.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 100.08 MB
+2023-01-08 20:54:08|2116.2|  7.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 80.06 MB
+2023-01-08 20:54:17|2125.2|  9.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 90.13 MB
+2023-01-08 20:54:21|2129.6|  4.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 110.08 MB
+2023-01-08 20:54:31|2139.6| 10.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 100.16 MB
+2023-01-08 20:54:40|2148.5|  8.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 120.09 MB
+2023-01-08 20:54:45|2153.2|  4.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 110.17 MB
+2023-01-08 20:54:56|2164.4| 11.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP Download: received 119.56 MB
+2023-01-08 20:54:56|2164.4|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [17]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 125366683 bytes, DNS lookup time: 0 ms, total transfer time: 198482 ms
+2023-01-08 20:55:01|2169.1|  4.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP Download: received 129.02 MB
+2023-01-08 20:55:01|2169.1|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [15]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 135290384 bytes, DNS lookup time: 82 ms, total transfer time: 224589 ms
+2023-01-08 20:55:01|2169.2|  0.1|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:55:01|2169.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:55:01|2169.2|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDV_20221115T094251_TCI_10m.jp2'
+2023-01-08 20:55:01|2169.2|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 20:55:01|2169.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 20:55:01|2169.2|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 20:55:01|2169.2|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 20:55:01|2169.2|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDV_20221115T094251_TCI_10m.jp2'
+2023-01-08 20:55:01|2169.3|  0.1|INFORM|FME Configuration: Source coordinate system for reader R_10[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 20:55:01|2169.3|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 20:55:07|2195.8| 26.5|INFORM|FFS writer: Completed 55.95% of intermediate processing
+2023-01-08 20:55:11|2214.7| 18.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:55:16|2223.3|  8.6|INFORM|FFS writer: Completed 3.1% of intermediate processing
+2023-01-08 20:55:21|2231.9|  8.6|INFORM|FFS writer: Completed 5.99% of intermediate processing
+2023-01-08 20:55:26|2240.5|  8.6|INFORM|FFS writer: Completed 8.69% of intermediate processing
+2023-01-08 20:55:31|2248.8|  8.3|INFORM|FFS writer: Completed 11.54% of intermediate processing
+2023-01-08 20:55:36|2257.4|  8.6|INFORM|FFS writer: Completed 14.37% of intermediate processing
+2023-01-08 20:55:41|2265.4|  8.0|INFORM|FFS writer: Completed 17.17% of intermediate processing
+2023-01-08 20:55:46|2273.3|  7.9|INFORM|FFS writer: Completed 19.82% of intermediate processing
+2023-01-08 20:55:51|2282.0|  8.7|INFORM|FFS writer: Completed 22.88% of intermediate processing
+2023-01-08 20:55:56|2290.2|  8.2|INFORM|FFS writer: Completed 25.61% of intermediate processing
+2023-01-08 20:56:01|2298.5|  8.3|INFORM|FFS writer: Completed 28.2% of intermediate processing
+2023-01-08 20:56:06|2307.4|  8.9|INFORM|FFS writer: Completed 31.39% of intermediate processing
+2023-01-08 20:56:11|2315.6|  8.2|INFORM|FFS writer: Completed 34.03% of intermediate processing
+2023-01-08 20:56:16|2324.2|  8.6|INFORM|FFS writer: Completed 36.8% of intermediate processing
+2023-01-08 20:56:21|2332.0|  7.8|INFORM|FFS writer: Completed 39.93% of intermediate processing
+2023-01-08 20:56:26|2340.3|  8.3|INFORM|FFS writer: Completed 43.19% of intermediate processing
+2023-01-08 20:56:31|2349.3|  9.0|INFORM|FFS writer: Completed 46.01% of intermediate processing
+2023-01-08 20:56:36|2357.3|  8.0|INFORM|FFS writer: Completed 48.83% of intermediate processing
+2023-01-08 20:56:41|2364.8|  7.5|INFORM|FFS writer: Completed 52.45% of intermediate processing
+2023-01-08 20:56:46|2373.0|  8.2|INFORM|FFS writer: Completed 55.18% of intermediate processing
+2023-01-08 20:56:51|2381.3|  8.3|INFORM|FFS writer: Completed 58.12% of intermediate processing
+2023-01-08 20:56:56|2389.7|  8.4|INFORM|FFS writer: Completed 60.95% of intermediate processing
+2023-01-08 20:57:01|2397.5|  7.8|INFORM|FFS writer: Completed 63.96% of intermediate processing
+2023-01-08 20:57:06|2405.8|  8.3|INFORM|FFS writer: Completed 67.38% of intermediate processing
+2023-01-08 20:57:11|2413.5|  7.7|INFORM|FFS writer: Completed 70.9% of intermediate processing
+2023-01-08 20:57:16|2421.5|  8.0|INFORM|FFS writer: Completed 73.78% of intermediate processing
+2023-01-08 20:57:21|2430.1|  8.6|INFORM|FFS writer: Completed 76.63% of intermediate processing
+2023-01-08 20:57:26|2438.9|  8.8|INFORM|FFS writer: Completed 79.62% of intermediate processing
+2023-01-08 20:57:31|2447.7|  8.8|INFORM|FFS writer: Completed 82.24% of intermediate processing
+2023-01-08 20:57:36|2456.4|  8.7|INFORM|FFS writer: Completed 85.26% of intermediate processing
+2023-01-08 20:57:41|2466.2|  9.8|INFORM|FFS writer: Completed 88.29% of intermediate processing
+2023-01-08 20:57:46|2474.3|  8.1|INFORM|FFS writer: Completed 90.93% of intermediate processing
+2023-01-08 20:57:51|2482.4|  8.1|INFORM|FFS writer: Completed 93.6% of intermediate processing
+2023-01-08 20:57:56|2491.2|  8.8|INFORM|FFS writer: Completed 96.94% of intermediate processing
+2023-01-08 20:58:00|2498.4|  7.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 20:58:05|2508.1|  9.7|INFORM|FFS writer: Completed 3.15% of intermediate processing
+2023-01-08 20:58:10|2516.2|  8.1|INFORM|FFS writer: Completed 5.89% of intermediate processing
+2023-01-08 20:58:15|2524.2|  8.0|INFORM|FFS writer: Completed 8.95% of intermediate processing
+2023-01-08 20:58:20|2533.0|  8.8|INFORM|FFS writer: Completed 11.92% of intermediate processing
+2023-01-08 20:58:25|2541.7|  8.7|INFORM|FFS writer: Completed 14.87% of intermediate processing
+2023-01-08 20:58:30|2549.3|  7.6|INFORM|FFS writer: Completed 17.6% of intermediate processing
+2023-01-08 20:58:35|2558.1|  8.8|INFORM|FFS writer: Completed 20.6% of intermediate processing
+2023-01-08 20:58:40|2566.0|  7.9|INFORM|FFS writer: Completed 23.52% of intermediate processing
+2023-01-08 20:58:45|2573.9|  7.9|INFORM|FFS writer: Completed 26.15% of intermediate processing
+2023-01-08 20:58:50|2581.6|  7.7|INFORM|FFS writer: Completed 28.96% of intermediate processing
+2023-01-08 20:58:55|2589.8|  8.2|INFORM|FFS writer: Completed 31.96% of intermediate processing
+2023-01-08 20:59:01|2598.1|  8.3|INFORM|FFS writer: Completed 34.76% of intermediate processing
+2023-01-08 20:59:06|2607.1|  9.0|INFORM|FFS writer: Completed 37.48% of intermediate processing
+2023-01-08 20:59:11|2616.4|  9.3|INFORM|FFS writer: Completed 40.57% of intermediate processing
+2023-01-08 20:59:16|2625.0|  8.6|INFORM|FFS writer: Completed 43.48% of intermediate processing
+2023-01-08 20:59:21|2633.6|  8.6|INFORM|FFS writer: Completed 46.25% of intermediate processing
+2023-01-08 20:59:26|2642.7|  9.1|INFORM|FFS writer: Completed 49.27% of intermediate processing
+2023-01-08 20:59:31|2651.5|  8.8|INFORM|FFS writer: Completed 52.17% of intermediate processing
+2023-01-08 20:59:36|2659.6|  8.1|INFORM|FFS writer: Completed 54.92% of intermediate processing
+2023-01-08 20:59:41|2668.1|  8.5|INFORM|FFS writer: Completed 57.89% of intermediate processing
+2023-01-08 20:59:46|2677.2|  9.1|INFORM|FFS writer: Completed 60.87% of intermediate processing
+2023-01-08 20:59:51|2685.8|  8.6|INFORM|FFS writer: Completed 63.59% of intermediate processing
+2023-01-08 20:59:56|2694.6|  8.8|INFORM|FFS writer: Completed 66.42% of intermediate processing
+2023-01-08 21:00:01|2703.2|  8.6|INFORM|FFS writer: Completed 69.48% of intermediate processing
+2023-01-08 21:00:06|2711.6|  8.4|INFORM|FFS writer: Completed 72.26% of intermediate processing
+2023-01-08 21:00:11|2719.8|  8.2|INFORM|FFS writer: Completed 75.01% of intermediate processing
+2023-01-08 21:00:16|2728.4|  8.6|INFORM|FFS writer: Completed 78.11% of intermediate processing
+2023-01-08 21:00:21|2736.8|  8.4|INFORM|FFS writer: Completed 80.96% of intermediate processing
+2023-01-08 21:00:26|2745.8|  9.0|INFORM|FFS writer: Completed 83.75% of intermediate processing
+2023-01-08 21:00:31|2754.2|  8.4|INFORM|FFS writer: Completed 86.76% of intermediate processing
+2023-01-08 21:00:36|2762.4|  8.2|INFORM|FFS writer: Completed 89.71% of intermediate processing
+2023-01-08 21:00:41|2769.9|  7.5|INFORM|FFS writer: Completed 92.51% of intermediate processing
+2023-01-08 21:00:46|2778.9|  9.0|INFORM|FFS writer: Completed 95.59% of intermediate processing
+2023-01-08 21:00:51|2788.5|  9.6|INFORM|FFS writer: Completed 99.27% of intermediate processing
+2023-01-08 21:00:52|2790.8|  2.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 21:00:52|2790.8|  0.0|INFORM|SentinelDownloader_FeatureReader_2 (QueryFactory): 5 input initiators processed
+2023-01-08 21:00:52|2791.2|  0.4|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 21:00:52|2791.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 21:00:52|2791.2|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDA_20221115T094251_B02_10m.jp2'
+2023-01-08 21:00:52|2791.2|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 21:00:52|2791.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 21:00:52|2791.2|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 21:00:52|2791.2|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 21:00:52|2791.2|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDA_20221115T094251_B02_10m.jp2'
+2023-01-08 21:00:52|2791.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_12[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 21:00:52|2791.2|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 21:00:57|2819.0| 27.8|INFORM|FFS writer: Completed 93.26% of intermediate processing
+2023-01-08 21:00:57|2819.1|  0.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 21:01:02|2828.6|  9.5|INFORM|FFS writer: Completed 9.31% of intermediate processing
+2023-01-08 21:01:07|2837.2|  8.6|INFORM|FFS writer: Completed 17.84% of intermediate processing
+2023-01-08 21:01:12|2845.9|  8.7|INFORM|FFS writer: Completed 26.13% of intermediate processing
+2023-01-08 21:01:17|2854.6|  8.7|INFORM|FFS writer: Completed 35.12% of intermediate processing
+2023-01-08 21:01:22|2863.3|  8.7|INFORM|FFS writer: Completed 44.34% of intermediate processing
+2023-01-08 21:01:27|2872.7|  9.4|INFORM|FFS writer: Completed 53.64% of intermediate processing
+2023-01-08 21:01:32|2881.7|  9.0|INFORM|FFS writer: Completed 62.82% of intermediate processing
+2023-01-08 21:01:37|2890.2|  8.5|INFORM|FFS writer: Completed 71.66% of intermediate processing
+2023-01-08 21:01:42|2898.8|  8.6|INFORM|FFS writer: Completed 80.05% of intermediate processing
+2023-01-08 21:01:47|2906.2|  7.4|INFORM|FFS writer: Completed 89.9% of intermediate processing
+2023-01-08 21:01:51|2912.9|  6.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 21:01:56|2921.0|  8.1|INFORM|FFS writer: Completed 11.9% of intermediate processing
+2023-01-08 21:02:01|2929.7|  8.7|INFORM|FFS writer: Completed 20.23% of intermediate processing
+2023-01-08 21:02:06|2937.3|  7.6|INFORM|FFS writer: Completed 30.97% of intermediate processing
+2023-01-08 21:02:11|2945.9|  8.6|INFORM|FFS writer: Completed 41.08% of intermediate processing
+2023-01-08 21:02:16|2952.5|  6.6|INFORM|FFS writer: Completed 53.46% of intermediate processing
+2023-01-08 21:02:21|2959.8|  7.3|INFORM|FFS writer: Completed 65% of intermediate processing
+2023-01-08 21:02:26|2967.2|  7.4|INFORM|FFS writer: Completed 77.23% of intermediate processing
+2023-01-08 21:02:31|2976.4|  9.2|INFORM|FFS writer: Completed 89.12% of intermediate processing
+2023-01-08 21:02:36|2985.9|  9.5|INFORM|FFS writer: Completed 98.58% of intermediate processing
+2023-01-08 21:02:37|2987.2|  1.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 21:02:39|2989.2|  2.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 122.24 MB
+2023-01-08 21:02:39|2989.6|  0.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 120.96 MB
+2023-01-08 21:02:47|2997.1|  7.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 10.01 MB
+2023-01-08 21:03:02|3011.7| 14.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 20.02 MB
+2023-01-08 21:03:06|3015.5|  3.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 10.01 MB
+2023-01-08 21:03:22|3031.7| 16.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 30.02 MB
+2023-01-08 21:03:24|3033.2|  1.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 20.02 MB
+2023-01-08 21:03:40|3049.1| 15.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 40.03 MB
+2023-01-08 21:03:40|3049.7|  0.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 30.02 MB
+2023-01-08 21:03:56|3064.9| 15.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 40.03 MB
+2023-01-08 21:04:00|3068.6|  3.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 50.04 MB
+2023-01-08 21:04:09|3078.0|  9.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 50.04 MB
+2023-01-08 21:04:18|3086.9|  8.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 60.05 MB
+2023-01-08 21:04:25|3092.9|  6.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 60.05 MB
+2023-01-08 21:04:39|3107.0| 14.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 70.07 MB
+2023-01-08 21:04:46|3113.6|  6.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 70.06 MB
+2023-01-08 21:04:59|3125.2| 11.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 80.06 MB
+2023-01-08 21:05:01|3127.9|  2.7|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 80.08 MB
+2023-01-08 21:05:14|3139.5| 11.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 90.07 MB
+2023-01-08 21:05:21|3146.5|  7.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 90.09 MB
+2023-01-08 21:05:29|3154.4|  7.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 100.08 MB
+2023-01-08 21:05:39|3164.3|  9.9|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 100.09 MB
+2023-01-08 21:05:48|3172.7|  8.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 110.16 MB
+2023-01-08 21:05:54|3178.0|  5.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 110.10 MB
+2023-01-08 21:06:02|3186.8|  8.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 120.20 MB
+2023-01-08 21:06:04|3188.0|  1.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP Download: received 122.24 MB
+2023-01-08 21:06:04|3188.0|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [19]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 128180273 bytes, DNS lookup time: 49 ms, total transfer time: 206636 ms
+2023-01-08 21:06:08|3192.0|  4.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 120.11 MB
+2023-01-08 21:06:09|3193.6|  1.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP Download: received 120.96 MB
+2023-01-08 21:06:09|3193.6|  0.0|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [18]: HTTP transfer summary (scihub.copernicus.eu): status code: 200, download size: 126833117 bytes, DNS lookup time: 57 ms, total transfer time: 212206 ms
+2023-01-08 21:06:09|3193.7|  0.1|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 21:06:09|3193.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 21:06:09|3193.7|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDA_20221115T094251_B03_10m.jp2'
+2023-01-08 21:06:09|3193.8|  0.1|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 21:06:09|3193.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 21:06:09|3193.8|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 21:06:09|3193.8|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 21:06:09|3193.8|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDA_20221115T094251_B03_10m.jp2'
+2023-01-08 21:06:09|3193.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_14[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 21:06:09|3193.8|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 21:06:19|3229.7| 35.9|INFORM|FFS writer: Completed 9.28% of intermediate processing
+2023-01-08 21:06:25|3238.3|  8.6|INFORM|FFS writer: Completed 16.49% of intermediate processing
+2023-01-08 21:06:30|3247.2|  8.9|INFORM|FFS writer: Completed 25.43% of intermediate processing
+2023-01-08 21:06:35|3256.5|  9.3|INFORM|FFS writer: Completed 34.21% of intermediate processing
+2023-01-08 21:06:40|3264.0|  7.5|INFORM|FFS writer: Completed 42.29% of intermediate processing
+2023-01-08 21:06:45|3272.3|  8.3|INFORM|FFS writer: Completed 50% of intermediate processing
+2023-01-08 21:06:50|3280.5|  8.2|INFORM|FFS writer: Completed 58.26% of intermediate processing
+2023-01-08 21:06:55|3289.8|  9.3|INFORM|FFS writer: Completed 67.03% of intermediate processing
+2023-01-08 21:07:00|3298.6|  8.8|INFORM|FFS writer: Completed 74.89% of intermediate processing
+2023-01-08 21:07:05|3307.7|  9.1|INFORM|FFS writer: Completed 83.61% of intermediate processing
+2023-01-08 21:07:10|3316.7|  9.0|INFORM|FFS writer: Completed 92% of intermediate processing
+2023-01-08 21:07:14|3324.4|  7.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 21:07:19|3333.0|  8.6|INFORM|FFS writer: Completed 9.62% of intermediate processing
+2023-01-08 21:07:24|3340.8|  7.8|INFORM|FFS writer: Completed 17.87% of intermediate processing
+2023-01-08 21:07:29|3349.5|  8.7|INFORM|FFS writer: Completed 31.71% of intermediate processing
+2023-01-08 21:07:34|3356.8|  7.3|INFORM|FFS writer: Completed 43.36% of intermediate processing
+2023-01-08 21:07:39|3364.9|  8.1|INFORM|FFS writer: Completed 53.26% of intermediate processing
+2023-01-08 21:07:44|3373.0|  8.1|INFORM|FFS writer: Completed 66.45% of intermediate processing
+2023-01-08 21:07:49|3380.6|  7.6|INFORM|FFS writer: Completed 79.52% of intermediate processing
+2023-01-08 21:07:54|3389.1|  8.5|INFORM|FFS writer: Completed 87.71% of intermediate processing
+2023-01-08 21:07:59|3398.1|  9.0|INFORM|FFS writer: Completed 96.42% of intermediate processing
+2023-01-08 21:08:01|3402.2|  4.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 21:08:02|3402.7|  0.5|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 21:08:02|3402.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 21:08:02|3402.7|  0.0|INFORM|Performing query against JPEG2000 dataset `T34UDA_20221115T094251_B04_10m.jp2'
+2023-01-08 21:08:02|3402.7|  0.0|INFORM|Creating reader for format: JPEG 2000 (GeoJP2/GMLJP2)
+2023-01-08 21:08:02|3402.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `JPEG2000'
+2023-01-08 21:08:02|3402.7|  0.0|INFORM|JPEG2000 reader: Directive '_COMPRESSION_CACHE_SIZE_CALCULATION' has value 'AUTO'
+2023-01-08 21:08:02|3402.7|  0.0|INFORM|JPEG2000 reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has the value 'No'
+2023-01-08 21:08:02|3402.7|  0.0|INFORM|JPEG2000 reader: Opening file 'T34UDA_20221115T094251_B04_10m.jp2'
+2023-01-08 21:08:02|3402.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader R_16[JPEG2000] set to `UTM84-34N' as read from input data
+2023-01-08 21:08:02|3402.7|  0.0|INFORM|Coordinate System `UTM84-34N' parameters: CS_NAME=`UTM84-34N' DESC_NM=`UTM-WGS 1984 datum, Zone 34 North, Meter; Cent. Meridian 21d E' DT_NAME=`WGS84' EPSG_QD=`1' GROUP=`UTMN' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`24.75' MIN_LAT=`-8.4' MIN_LNG=`17.25' PARM1=`21' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0'
+2023-01-08 21:08:07|3427.1| 24.4|INFORM|FFS writer: Completed 83.94% of intermediate processing
+2023-01-08 21:08:08|3429.3|  2.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 21:08:13|3438.3|  9.0|INFORM|FFS writer: Completed 9.89% of intermediate processing
+2023-01-08 21:08:18|3447.0|  8.7|INFORM|FFS writer: Completed 17.78% of intermediate processing
+2023-01-08 21:08:23|3455.1|  8.1|INFORM|FFS writer: Completed 26.88% of intermediate processing
+2023-01-08 21:08:28|3463.6|  8.5|INFORM|FFS writer: Completed 35.93% of intermediate processing
+2023-01-08 21:08:33|3471.9|  8.3|INFORM|FFS writer: Completed 44.53% of intermediate processing
+2023-01-08 21:08:38|3481.2|  9.3|INFORM|FFS writer: Completed 52.7% of intermediate processing
+2023-01-08 21:08:43|3489.5|  8.3|INFORM|FFS writer: Completed 61.97% of intermediate processing
+2023-01-08 21:08:48|3497.9|  8.4|INFORM|FFS writer: Completed 72.8% of intermediate processing
+2023-01-08 21:08:53|3505.1|  7.2|INFORM|FFS writer: Completed 79.18% of intermediate processing
+2023-01-08 21:08:58|3513.4|  8.3|INFORM|FFS writer: Completed 86.06% of intermediate processing
+2023-01-08 21:09:03|3522.3|  8.9|INFORM|FFS writer: Completed 93.6% of intermediate processing
+2023-01-08 21:09:06|3528.0|  5.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 21:09:11|3536.9|  8.9|INFORM|FFS writer: Completed 7.67% of intermediate processing
+2023-01-08 21:09:16|3545.3|  8.4|INFORM|FFS writer: Completed 15.7% of intermediate processing
+2023-01-08 21:09:21|3552.5|  7.2|INFORM|FFS writer: Completed 22.15% of intermediate processing
+2023-01-08 21:09:26|3560.9|  8.4|INFORM|FFS writer: Completed 30.09% of intermediate processing
+2023-01-08 21:09:31|3570.2|  9.3|INFORM|FFS writer: Completed 38.03% of intermediate processing
+2023-01-08 21:09:36|3579.4|  9.2|INFORM|FFS writer: Completed 46.12% of intermediate processing
+2023-01-08 21:09:41|3588.8|  9.4|INFORM|FFS writer: Completed 54.24% of intermediate processing
+2023-01-08 21:09:46|3597.0|  8.2|INFORM|FFS writer: Completed 61.96% of intermediate processing
+2023-01-08 21:09:51|3605.7|  8.7|INFORM|FFS writer: Completed 70.08% of intermediate processing
+2023-01-08 21:09:56|3614.2|  8.5|INFORM|FFS writer: Completed 77.62% of intermediate processing
+2023-01-08 21:10:01|3622.7|  8.5|INFORM|FFS writer: Completed 85.61% of intermediate processing
+2023-01-08 21:10:06|3630.9|  8.2|INFORM|FFS writer: Completed 93.36% of intermediate processing
+2023-01-08 21:10:10|3636.7|  5.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 21:10:15|3645.2|  8.5|INFORM|FFS writer: Completed 8.14% of intermediate processing
+2023-01-08 21:10:20|3653.5|  8.3|INFORM|FFS writer: Completed 16% of intermediate processing
+2023-01-08 21:10:25|3661.8|  8.3|INFORM|FFS writer: Completed 23.26% of intermediate processing
+2023-01-08 21:10:30|3670.3|  8.5|INFORM|FFS writer: Completed 30.91% of intermediate processing
+2023-01-08 21:10:35|3678.4|  8.1|INFORM|FFS writer: Completed 38.26% of intermediate processing
+2023-01-08 21:10:40|3686.4|  8.0|INFORM|FFS writer: Completed 44.48% of intermediate processing
+2023-01-08 21:10:45|3694.2|  7.8|INFORM|FFS writer: Completed 52.32% of intermediate processing
+2023-01-08 21:10:50|3702.5|  8.3|INFORM|FFS writer: Completed 60.36% of intermediate processing
+2023-01-08 21:10:55|3711.2|  8.7|INFORM|FFS writer: Completed 68.08% of intermediate processing
+2023-01-08 21:11:00|3719.2|  8.0|INFORM|FFS writer: Completed 75.69% of intermediate processing
+2023-01-08 21:11:05|3727.2|  8.0|INFORM|FFS writer: Completed 83.02% of intermediate processing
+2023-01-08 21:11:10|3735.5|  8.3|INFORM|FFS writer: Completed 90.74% of intermediate processing
+2023-01-08 21:11:15|3744.5|  9.0|INFORM|FFS writer: Completed 99.24% of intermediate processing
+2023-01-08 21:11:15|3745.3|  0.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-01-08 21:11:18|3747.8|  2.5|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [20]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 128.83 MB
+2023-01-08 21:11:18|3748.0|  0.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [21]: Starting HTTP download from 'scihub.copernicus.eu'. Expected transfer size: 129.22 MB
+2023-01-08 21:11:30|3760.3| 12.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [21]: HTTP Download: received 10.01 MB
+2023-01-08 21:11:48|3776.5| 16.2|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [21]: HTTP Download: received 20.02 MB
+2023-01-08 21:11:48|3776.9|  0.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [20]: HTTP Download: received 10.00 MB
+2023-01-08 21:12:09|3793.7| 16.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [21]: HTTP Download: received 30.02 MB
+2023-01-08 21:12:19|3800.0|  6.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [20]: HTTP Download: received 20.01 MB
+2023-01-08 21:12:29|3808.3|  8.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [21]: HTTP Download: received 40.03 MB
+2023-01-08 21:12:44|3821.9| 13.6|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [20]: HTTP Download: received 30.02 MB
+2023-01-08 21:12:50|3828.3|  6.4|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [21]: HTTP Download: received 50.04 MB
+2023-01-08 21:13:02|3840.1| 11.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [20]: HTTP Download: received 40.06 MB
+2023-01-08 21:13:08|3845.9|  5.8|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [21]: HTTP Download: received 60.05 MB
+2023-01-08 21:13:18|3856.2| 10.3|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [20]: HTTP Download: received 50.06 MB
+2023-01-08 21:13:24|3862.3|  6.1|INFORM|SentinelDownloader_HTTPCaller_10 (HTTPFactory): [21]: HTTP Download: received 70.06 MB
